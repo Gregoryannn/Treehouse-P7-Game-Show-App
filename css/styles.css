@@ -13,6 +13,7 @@
     --color-keys: #37474F;
     --color-keys-light: #E5E5E5;
     --font-size-large: 60px;
+    --font-size-msg: 40px;
     --font-size-medium: 20px;
     --transition: all .2s ease-in-out;
 }
@@ -84,7 +85,7 @@ button {
 /* Scoreboard */
 
 .tries {
-    background-image: url('../images/liveHeart.png');
+    /* background-image: url('../images/liveHeart.png'); */
 }
 
 
@@ -176,4 +177,12 @@ button {
 
 .lose a {
     color: var(--color-lose);
+}
+
+.message {
+    margin: 0;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    font-size: var(--font-size-msg);
+    font-weight: normal;
 }
