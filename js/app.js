@@ -234,9 +234,9 @@ function checkWin() {
         }
 
 
-        // ==============
-        //
-        // =============
+        // ==================================
+        // Listen for clicks to the keyboard
+        // ==================================
 
         qwerty.addEventListener('click', function(evt) {
 
